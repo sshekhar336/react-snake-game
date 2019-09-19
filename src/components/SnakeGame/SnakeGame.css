@@ -1,0 +1,62 @@
+.gamebox{
+  position: relative;
+  margin: auto;
+  width: 60%;
+  height:60%;
+  border: 2px solid #000;
+}
+
+.gameTitle{
+  text-align: center;
+  padding-top: 5px;
+  color: #9aa50cc4;
+  font-family: cursive;
+}
+
+.btn{
+  border: none;
+  font-size: 15px;
+  padding: 3px 23px;
+  background-color: #9aa50cc4;
+  
+}
+
+.startAndPausebtn{
+  float: left;
+  padding: 1% 15% 1% 10%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  #buttons{
+    /* float: right; */
+    padding: 4% 23% 1% 43%;
+  }
+  .btn{
+    border: none;
+    font-size: 12px;
+    padding: 3px 10px;
+    background-color: #9aa50cc4;
+  }
+
+  .startAndPausebtn{
+    float: left;
+    padding: 1% 5% 1% 5%;
+  }
+
+  .left{
+    float: left;
+    padding-right: 2%;
+  }
+
+  .up{
+    padding-left: 28%;
+    padding-bottom: 2%;
+  }
+
+  .down{
+    padding-left: 21%;
+    padding-top: 2%;
+  }
+}
